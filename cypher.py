@@ -106,10 +106,10 @@
 import random
 secret_key = 0
 
-def encrypt(text):
+def encrypt(text, redo =False):
     # this generate the key for encryption
     global secret_key
-    if secret_key == 0:
+    if secret_key == 0 or redo:
         secret_key = random.randint(1, 25)
     result = ""
     # print(secret_key) #this will give you the key if uncommented 
