@@ -4,7 +4,8 @@ Code within repository is for Kent State course Human Interface Computing. This 
 
 
 ## Compilation
-To compile the program two steps are nessesary. Clone the respository and run the following:
+To compile the program two steps are nessesary. 
+Clone the respository, or copy the main.py and cypher.py file to be in the same file location, and run the following (recommended in Visual Studio Code 2):
 ```bash
 python main.py
 ```
